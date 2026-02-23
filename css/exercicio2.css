@@ -1,0 +1,62 @@
+#azul{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: blue; 
+    color: aliceblue;
+    text-align: center;
+    top: 5px;
+    left: 300px;
+    z-index: 1;  
+}
+
+#vermelha{
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    top: 5px;
+    left: 500px;
+    z-index: 1;
+}
+
+#verde{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    background-color: green;
+    color: aliceblue;
+    text-align: center;
+    top:60px;
+    left:300px;
+    z-index: 1;
+}
+
+#amarela{
+    position: absolute;
+    width: 990px;
+    height: 400px;
+    background-color: yellow;
+    border: 5px solid red;
+    color: rgb(97, 96, 96);
+    text-align: center;
+    top: 90px;
+    left: 300px;
+    z-index: 1;
+}
+
+#cinza{
+    position: absolute;
+    width: 1000px;
+    height: 30px;
+    background-color: rgb(161, 160, 160);
+    color: aliceblue;
+    text-align: center;
+    top: 500px;
+    left:300px;
+    z-index: 1;
+}
+
+

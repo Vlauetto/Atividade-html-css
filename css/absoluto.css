@@ -1,0 +1,34 @@
+ #camada1{
+            position: absolute; /* componente absoluto que está sobreposto à página */
+            width: 150px;
+            height: 100px;
+            background-color: aquamarine;
+            border: 5px solid black;
+            text-align: center;
+            top: 200px;
+            left: 200px;
+            z-index: 1;
+         }
+         #camada2{
+            position: absolute; /* componente absoluto que está sobreposto à página */
+            width: 250px;
+            height: 200px;
+            background-color: rgb(24, 189, 134);
+            border: 5px solid black;
+            text-align: center;
+            top: 250px; /*posição à partir do topo da página*/
+            left: 250px; /*posição à partir da esquerda da página*/
+            z-index: 2;
+        }
+
+        #camada3{ 
+            position: absolute; /* componente absoluto que está sobreposto à página */
+            top: 400px; /*posição à partir do topo da página*/
+            left: 400px; /*posição à partir da esquerda da página*/
+            z-index: 3;
+        }
+
+        #camada3 img{
+            width: 300px;
+            height: 250px;
+        }
