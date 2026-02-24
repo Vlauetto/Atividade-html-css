@@ -1,0 +1,170 @@
+#laranja{
+    position: absolute;
+    width: 1200px;
+    height: 240px;
+    background-color: lab(65.9% 39.03 17.36); 
+    top: 0px;
+    left: 180px;
+    z-index: 1;  
+}
+
+#branco{
+    position:absolute;
+    width: 700px;
+    height: 40px;
+    background-color: aliceblue;
+    top: 150px;
+    left: 350px;
+    z-index: 2;
+}
+
+#preto{
+     position:absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(59, 59, 59);
+    top: 150px;
+    left: 1050px;
+    z-index: 3;
+}
+
+#menu{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(175, 176, 175);
+    top: 250px;
+    left: 300px;
+    z-index: 4;
+}
+
+#menu2{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(170, 173, 170);
+    top: 250px;
+    left: 540px;
+    z-index: 4;
+}
+
+#menu3{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(177, 179, 177);
+    top: 250px;
+    left: 770px;
+    z-index: 4;
+}
+
+#menu4{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(177, 179, 177);
+    top: 250px;
+    left: 1000px;
+    z-index: 4;
+}
+
+#quadrado{
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    background-color: white;
+    top: 260px;
+    left: 345px;
+    z-index: 4;
+}
+
+#quadrado2{
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    background-color: white;
+    top: 260px;
+    left: 590px;
+    z-index: 4;
+}
+
+#quadrado3{
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    background-color: white;
+    top: 260px;
+    left: 820px;
+    z-index: 4;
+}
+
+#quadrado4{
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    background-color: white;
+    top: 260px;
+    left: 1050px;
+    z-index: 4;
+}
+
+#retangulo{
+    position: absolute;
+    width: 170px;
+    height: 410px;
+    background-color: rgb(223, 215, 215);
+    top: 299px;
+    left: 1050px;
+    z-index: 1;
+}
+
+#retangulo2{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background-color:  lab(65.9% 39.03 17.36);
+    top: 510px;
+    left: 540px;
+    z-index: 1;
+}
+
+#forma2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(103, 208, 246);
+    top: 510px;
+    left: 326px;
+    z-index: 6;
+}
+
+#forma1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(143, 253, 253);
+    top: 305px;
+    left: 800px;
+    z-index: 7;
+}
+
+#forma3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(109, 111, 111);
+    top: 305px;
+    left: 560px;
+    z-index: 7;
+}
+
+#forma4{
+     position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(240, 162, 162);
+    top: 305px;
+    left: 328px;
+    z-index: 7;
+
+}
