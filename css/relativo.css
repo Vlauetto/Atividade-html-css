@@ -1,0 +1,61 @@
+/*CSS RESET */
+
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+    position: relative;
+    width: 800px;
+    height: 750px;
+    background-color: rgb(251, 242, 230);
+    margin: auto; /*alinha o componente no centro*/
+    margin-top: 30px;
+}
+
+#camada1{
+    position: relative; /* não usa top,left e não coloca uma em cima do outro, precisa ser absoluto(o de cima) */
+    width: 300px;
+    height: 380px;
+    background-color: rgb(252, 232, 194);
+    border: 5px solid rgb(255, 185, 185);
+    text-align: center;
+    padding: 10px; /*espaço para dentro da área */
+    float: left; /*encaixa na direita pq um componente vai entrar na esquerda */
+}
+
+#camada2{
+    position: relative; /* não usa top,left e não coloca uma em cima do outro, precisa ser absoluto(o de cima) */
+    width: 300px;
+    height: 380px;
+    background-color: rgb(230, 193, 126);
+    border: 5px solid rgb(208, 111, 111);
+    text-align: center;
+    padding: 10px; /*espaço para dentro da área */
+    float: left; /*fica uma do ladinho do outro, se colocar só na primeira ele vai para baixo */
+}
+
+#camada3{
+    position: relative; /* não usa top,left e não coloca uma em cima do outro, precisa ser absoluto(o de cima) */
+    width: 300px;
+    height: 380px;
+    background-color: rgb(245, 179, 226);
+    border: 5px solid rgb(243, 154, 154);
+    text-align: center;
+    padding: 10px; /*espaço para dentro da área */
+    clear: left; /*fica abaixo, se colocar float vai encavalar, é a quebra de linha */
+}
+
+#camada_absoluta{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(241, 135, 206);
+    top: 150px;
+    left: 200px;
+    z-index: 2;
+}
+
