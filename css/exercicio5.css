@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 44rem;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.topo{
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(127, 255, 253);
+    font-family: 'Times New Roman';
+    display: flex; /*ativa o flexbox*/
+    justify-content: center; /*centraliza o conteúdo na horizontal */
+    align-items: center; /*centraliza o conteúdo na vertical */
+}
+
+.centro{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-color: rgba(133, 183, 222, 0.968);
+    text-align: left;
+}
+
+.quadrado1{
+    position: absolute;
+    top: 165px; 
+    left: 16rem;
+    width: 60rem;
+    height: 492px;
+    background-color: rgb(228, 230, 230);
+    text-align: left;
+}
+
+.quadrado2{
+    position: absolute;
+    top: 165px;
+    left: 1225px;
+    width: 150px;
+    height: 8rem;
+    background-color: white;
+}
+
+.quadrado3{
+    position: absolute;
+    top: 300px;
+    left: 1225px;
+    width: 150px;
+    height: 8rem;
+    background-color: white;
+}
+
+.imagem{
+    position: absolute;
+    top:500px;
+    left: 70%;
+}
+
+.rodape{
+    position: absolute;
+    width: 80%;
+    height: 51px;
+    background-color: rgba(139, 229, 213, 0.968);
+    text-align: left;
+
+}
