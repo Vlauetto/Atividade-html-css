@@ -1,0 +1,52 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    width: 90%;
+    height: 800px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+#cabecalho{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+}
+
+#menu{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(246, 163, 104);
+}
+
+#esquerda{
+    position: relative;
+    width: 30%;
+    height: 450px;
+    background-color: coral;
+    float: left;
+}
+
+#direita{
+    position: relative;
+    width: 70%;
+    height: 450px;
+    background-color: rgb(172, 52, 8);
+    float: left;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(241, 131, 153);
+    clear: left
+}
