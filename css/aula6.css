@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+    position: relative;
+    width: 1000px;
+    height: 750px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#camada1{
+    position: relative;
+    background-color: aquamarine;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+#camada1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#camada2{
+    position: relative;
+    background-color: aqua;
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+
+#camada2 img{
+    width: 100%;
+    height: 100%;
+}
+
+#camada3{
+    position: relative;
+    background-color: rgb(100, 246, 222);
+    width: 1000px;
+    height: 50px;
+    clear: left;
+    display: flex; /*alinha os componentes dentro de uma área*/
+    align-items: center; /*alinhamento vertical no meio*/
+    flex-direction: row; /*direção do alinhamento. Alinha em linha, um do lado do outro*/
+    justify-content: space-around; /*ajustou */
+}
+
+#w3{
+    width: 50px;
+    height: 40px;
+}
+
+#camada3 a{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(15, 16, 16);
+    color: aliceblue;
+    text-decoration: none; /*tira o sublinhado */
+    text-align: center;
+    display: flex; /*alinha os componentes dentro de uma área*/
+    align-items: center; /*alinhamento vertical*/
+    flex-direction: row; /*direção do alinhamento*/
+    justify-content: space-around; /* espaço em volta*/
+    border-radius:10px;
+}
+
+
+#camada3 a:hover{
+    background-color: white;
+    color: black;
+    transition: all 1s;
+    width: 220px;
+}
+
+#camada4{
+    position: relative;
+    background-color: rgb(94, 209, 179);
+    color: white;
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+    border: 8px solid rgb(40, 60, 47);
+}
